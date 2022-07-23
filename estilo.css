@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+/* Cabeçalho */
+
+header, img{
+	width: 100%;
+	height: 300px;
+}
+
+/* Menu de navagação */
+
+nav{
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 10px;
+}
+
+.menu{
+	font: 2rem Forum;
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.menu:hover{
+	color: lightcoral ;
+}
+
+a{
+	font: 2rem Forum;
+	text-decoration: none;
+}
+
+/* Página Inicial*/
+
+article{
+	background-color: #D8D8D8;
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+section{
+	background-color: #D8D8D8;
+}
+
+h1, h2{
+	font: 3.5rem Bebas Neue, sans-serif;
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+h2{
+	font: 2.5rem Bebas Neue, sans-serif;
+	text-align:left;
+	margin-left: 25px;
+	padding: 10px;
+
+}
+
+p, ol{
+    font: 1.5rem Forum, sans-serif;
+    color: #000000;
+    text-align: justify;
+    line-height: 35px;
+    padding: 10px;
+    margin-right: 30px
+}
+
+ol{
+	margin-left: 50px;
+	 
+}
+
+li{
+	margin-bottom: 10px;
+}
+
+/*Página de benefícios*/
+
+#pag_beneficios{
+	background-color: #000000;
+}
+
+#pag_beneficios h2{
+	color:red;
+}
+
+#pag_beneficios p, ol{
+	color: white;
+}
+
+#pag_beneficios p{
+	margin-left: 25px;
+}
+
+/*Página conheça mais sobre o Karatê*/
+
+#container{
+	justify-content: center;
+	display:flex;
+}
+
+.card{
+	background-color:rgb(255, 0, 0);
+	padding: 10px;
+	margin: 10px;
+	width: 25%;
+	border-radius: 8px;	
+	box-shadow: 6px 6px 6px rgb(51, 51, 51);
+	margin-bottom: 30px;
+	transition: 0.5s;
+}
+
+.card:hover{
+	box-shadow: 12px 18px 24px rgb(51, 51, 51);
+}
+
+.card-conteudo p, h3{
+	font: 1.5rem Forum;
+	color: white;
+	text-align:center;
+	margin: auto 0px;
+}
+
+.card-conteudo h3{	 
+	font-weight: bold;
+}
+
+#subtitulo{
+	margin-left: 25px;
+}
+
+/*Página de história*/
+
+#container_historia{
+	display:flex;
+}
+
+.div-historia{
+	padding: 20px;	
+}
+
+#pag_historia p{
+	text-align: justify;
+	padding-right: 50px;
+}
+
+.container-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Divs contendo as imagens e links*/
+
+.container-img p{
+	font-weight: bold;
+}
+
+.img-icones{
+	width: 30px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    padding-right: 70px;
+}
+
+video{
+	width: 500px;
+	box-shadow: 0px 4px 8px rgb(51, 51, 51);
+	transition: 0.4s;
+	margin: auto 0;
+	display: block;
+	
+}
+
+video:hover{
+	box-shadow: 4px 8px 16px rgb(51, 51, 51);
+}
+
+/* Rodapé */
+
+footer{
+	background-color:#000000;
+}
+
+footer p{
+	text-align: center;
+	font: 2rem Forum;
+	color:rgb(255, 255, 255);
+	padding: 20px;
+}
+
+footer a{
+	color:rgb(255, 0, 0)	 
+}
+
+footer a:hover{
+	color: lightcoral ;	
+}
+
+/* Página de Agendamentos */
+
+#pag-agendamentos p{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;
+}
+
+input, select, textarea{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #777;
+	border-radius: 5px;
+}
+
+label, fieldset, select, textarea{
+	font: 1.2rem Forum;
+	font-weight: bold;
+}
+
+fieldset{
+	border: 1px solid #666;
+	margin-bottom: 10px;
+}
+
+#data-hora-nro{
+	display: flex;
+	text-align: center;
+}
+
+input[type=radio], input[type=checkbox]{
+	width: 15px;
+	height: 15px;
+	margin: 10px;
+	padding: 10px;
+}
+
+textarea{
+	height: 80px;
+}
+
+#botoes-form{
+	display: flex;
+	margin-left: 50px;
+	width: 300px;
+}
+
+input[type="submit"], input[type="reset"]{
+	background-color: green;
+	margin: 5px;
+	align-items: center;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+}
+
+input[type="reset"]{
+	background-color: red;
+}
+
+
+ 
