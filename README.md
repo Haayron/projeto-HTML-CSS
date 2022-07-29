@@ -7,4 +7,4 @@ O site possui uma estrutura linear e uma página de agendamentos, onde é possí
 
 Além disso, conta com uma página sobre a história do karatê, os benefícios e uma página de conheça mais.
 
-"https://haayron.github.io/projeto-HTML-CSS/agendamentos.html"
+Acesse o site aqui: "https://haayron.github.io/projeto-HTML-CSS/agendamentos.html"
